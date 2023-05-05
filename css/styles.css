@@ -1,0 +1,175 @@
+#title {
+    background-color: #ff4c68;
+
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #E8E2E2;
+    font-size: 3.5rem;
+    line-height: 2;
+
+}
+
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+
+.container-fluid {
+    padding: 3% 15% 14%;
+}
+
+
+/* navigator bar */
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.download-button {
+    margin: 5% 2% 5% 0;
+}
+
+/* rotating image */     
+/* this is title image  */
+
+.rotate {                
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20%;
+
+}
+
+/* feature box */
+#features {
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.feature-box {
+    text-align: center;
+}
+
+.icon {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #E8E2E2;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100px;
+    margin: 30px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 7%;
+
+}
+
+.press-logo {
+    width: 15%;
+    margin: 50px 40px 30px;
+
+}
+
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+
+}
+
+.pricing-cards {
+    padding: 2% 2%; 
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 5% 15%;
+    text-align: center;
+
+}
+
+.h3class {
+    font-size: 3.5rem;
+    color:#E8E2E2;
+    font-family: 'Merriweather', serif;
+    line-height: 1.5;
+}
+
+#footer {
+    padding:5% 15%;
+    text-align: center;
+}
+.footicon {
+    margin:30px 10px;
+}
+
+.pclass {
+    color: black; 
+
+}
+
+/* Media query for responsive nature */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .rotate {
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
